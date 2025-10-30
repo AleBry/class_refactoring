@@ -1,5 +1,6 @@
 import json
 from graphviz import Digraph
+from torch import dot
 
 def generate_class_hierarchy(class_map, output_file="class_hierarchy"):
 
@@ -7,7 +8,7 @@ def generate_class_hierarchy(class_map, output_file="class_hierarchy"):
     dot = Digraph(comment="Class Hierarchy", engine="dot")
     
     # set layout direction to top-to-bottom and adjust spacing
-    dot.attr(rankdir="TB", nodesep="2.0", ranksep="5.0")
+    dot.attr(rankdir="TB", nodesep="1.0", ranksep="3.0")
     
     # track edges to avoid duplicates
     edges = set()
