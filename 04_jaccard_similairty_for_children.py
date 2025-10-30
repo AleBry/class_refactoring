@@ -47,7 +47,7 @@ def analyze_parent_and_children(class_map, output_file="similarity_report.json",
         json.dump(report, f, indent=4)
     print(f"Similarity report saved to {output_file}")
 
-
+# example usage with class_details5.json, yes, no.5 b/c I forgot to change it but its the most up to data JSON file 
 with open("class_details5.json", "r", encoding="utf-8") as f:
     class_map = json.load(f)
 
