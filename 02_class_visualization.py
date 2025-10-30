@@ -41,7 +41,7 @@ def generate_class_hierarchy(class_map, output_file="class_hierarchy"):
     dot.render(output_file, format="svg", cleanup=True)
     print(f"Class hierarchy diagram saved as {output_file}.svg")
 
-
+# example usage with class_details5.json, yes, no.5 b/c I forgot to change it but its the most up to data JSON file 
 with open("class_details5.json", "r", encoding="utf-8") as f:
     class_map = json.load(f)
 
