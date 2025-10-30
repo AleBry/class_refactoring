@@ -12,7 +12,7 @@ def compare_methods_and_attributes(class1, class2):
 
     return method_similarity, attribute_similarity
 
-def analyze_parent_and_children(class_map, output_file="similarity_report.json", threshold=0.7):
+def analyze_parent_and_children(class_map, output_file="jaccard_similarity_report.json", threshold=0.7):
     report = {}
 
     # group classes by parent
