@@ -1,4 +1,4 @@
-# Refactoring Python_Classes for NSLS-II Beamlines
+# Refactoring Python Classes for NSLS-II Beamlines
 This repo is a collection of all the work done towards consolidating Ophyd classes for NSLS-II profile collection repos at Brookhaven National Laboratory. This project was supported in part by the U.S. Department of Energy, Office of Science, Office of Workforce Development for Teachers and Scientists (WDTS) under the Community College Internships Program (CCI).
 
 Abstract:
